@@ -1,0 +1,9 @@
+run = "echo You clicked the run button"
+hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc", "**/sim_build", "**/results.xml", ".gitignore"]
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+VIRTUAL_ENV = "${REPL_HOME}/venv"
+PATH = "${VIRTUAL_ENV}/bin"
