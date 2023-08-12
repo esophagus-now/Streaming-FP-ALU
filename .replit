@@ -7,3 +7,4 @@ channel = "stable-22_11"
 [env]
 VIRTUAL_ENV = "${REPL_HOME}/venv"
 PATH = "${VIRTUAL_ENV}/bin"
+PYTHONBREAKPOINT="pudb.set_trace"

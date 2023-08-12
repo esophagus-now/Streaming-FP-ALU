@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+        pkgs.gtkwave
         pkgs.verilog
         pkgs.replitPackages.stderred
         pkgs.python310Full

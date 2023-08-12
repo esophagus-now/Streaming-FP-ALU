@@ -7,7 +7,8 @@
 SIM ?= icarus
 # TOPLEVEL_LANG ?= verilog
 
-VERILOG_SOURCES += $(PWD)/hello.sv
+VERILOG_SOURCES += hello.sv ../common/mm_flop.sv
+VERILOG_INCLUDE_DIRS += ../common
 # use VHDL_SOURCES for VHDL files
 
 # TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
