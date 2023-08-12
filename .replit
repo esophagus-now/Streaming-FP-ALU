@@ -1,5 +1,5 @@
 run = "echo You clicked the run button"
-hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc", "**/sim_build", "**/results.xml", ".gitignore"]
+hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc", "**/sim_build", "**/results.xml", ".gitignore", ".git"]
 
 [nix]
 channel = "stable-22_11"
